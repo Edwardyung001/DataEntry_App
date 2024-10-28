@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Employee ID"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/et2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Employee Name"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/et3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Employee Role"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/et4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Employee Salary"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/submit_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit" />
+
+    <Button
+        android:id="@+id/view_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Data" />
+
+    <Button
+        android:id="@+id/update_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update Data" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingTop="16dp" />
+
+</LinearLayout>
